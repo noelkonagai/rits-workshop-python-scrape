@@ -6,11 +6,17 @@ This github repo contains the workshop materials for data scraping. Workshop hel
 
 The instructions below will get you started with setting up your data scraping work. Copy paste the commands below to your Terminal.
 
-Installing BeautifulSoup library
+Installing BeautifulSoup and Requests libraries
 ```{r, engine='bash', count_lines}
 pip install beautifulsoup4
-```
-Installing Requests library
-```{r, engine='bash', count_lines}
 pip install requests
 ```
+Installing BeautifulSoup and Requests libraries for Anaconda
+```{r, engine='bash', count_lines}
+conda install beautifulsoup4
+conda install requests
+```
+## The Database: Wikiart.org
+
+Wikiart.org boasts with a collection of visual artworks, which you can search by artist, time period, style, and more. WikiArt presents both public domain and copyright protected artworks.
+
