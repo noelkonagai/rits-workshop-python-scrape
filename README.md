@@ -6,17 +6,22 @@ This github repo contains the workshop materials for data scraping. Workshop hel
 
 The instructions below will get you started with setting up your data scraping work. Copy paste the commands below to your Terminal.
 
-Installing BeautifulSoup and Requests libraries
+Installing libraries
 ```{r, engine='bash', count_lines}
-pip install beautifulsoup4
 pip install requests
+pip install pandas
+pip install urllib3
 ```
-Installing BeautifulSoup and Requests libraries for Anaconda
+Installing libraries for Anaconda
 ```{r, engine='bash', count_lines}
-conda install beautifulsoup4
 conda install requests
+conda install -c ulmo urllib3
 ```
 ## The Database: Wikiart.org
 
 Wikiart.org boasts with a collection of visual artworks, which you can search by artist, time period, style, and more. WikiArt presents both public domain and copyright protected artworks.
+
+## Sample program
+
+The sample code scrapes data on Cubist paintings. The link to get the JSON response is the following: https://www.wikiart.org/en/paintings-by-style/cubism?json=2&page=1
 
