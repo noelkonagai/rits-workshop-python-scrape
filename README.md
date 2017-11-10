@@ -27,3 +27,10 @@ Wikiart.org boasts with a collection of visual artworks, which you can search by
 Study [this sample url](https://www.wikiart.org/en/paintings-by-style/cubism?json=2&page=1) and the JSON response on your screen. Examine the structure for a minute or two, then go ahead and open the workshop Python notebook. Follow the instructions. If you are physically present at the workshop you can ask questions from the facilitators. Otherwise, if you get stuck, you can have a look at the solution file. 
 
 Note that the solution file has more elaborate code for downloading the images. It is for the reason that simple queued downloading takes too long. Everytime the requests library opens an image, it waits until it gets downloaded. This is the reason why I have used Threads with which you can simultaneously open multiple requests, reducing the total download time of the images.
+
+## Launch the Python Notebook
+
+Launch the Jupyter notebook and navigate to the notebook file.
+```{r, engine='bash', count_lines}
+jupyter notebook
+```
