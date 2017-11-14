@@ -100,5 +100,8 @@ ENV/
 # mypy
 .mypy_cache/
 pop-art.csv
+minimalism.csv
 pop-art/
 cubism/
+impressionism/
+minimalism/
